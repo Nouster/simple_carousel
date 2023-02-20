@@ -5,9 +5,9 @@ body{
 
 div.description{
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
-  text-transform: capitalize;
+  text-transform: uppercase;
   position: absolute;
   top: 70%;
   left: 50%;
@@ -72,4 +72,19 @@ button#play-pause {
 
 .dot.active {
   background-color: #030303;
+}
+
+@media screen and (max-width: 900px) {
+  button#play-pause {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  }
+  div.description{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    font-size: 1rem;
+  }
+  
 }
